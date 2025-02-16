@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "baseUrl": "./src",
+    "rootDir": "src",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "paths": {
+      "@controllers/*":["controllers/*"],
+      "@libs":["libs/index"],
+      "@LLM/*":["LLMs/*"],
+      "@routes":["routes/index"],
+      "@middlewares":["middlewares/index"],
+      "@utils":["utils/index"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules","dist"]
+}
